@@ -1,0 +1,131 @@
+html {background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fs3.amazonaws.com%2Fdesignco-web-assets%2Fuploads%2F2017%2F07%2FPodcast-large_2x-1450x1112.png)}
+
+#sub-btn {
+    position: relative;
+    right: 100px;
+    height: 40px;
+    width: 140px;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul > div {
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+#navigation {
+    font-family: 'Rubik', sans-serif;
+}
+
+#center-text {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 75px;
+    position: relative;
+    top: 175px;
+    text-align: center;
+}
+
+#main-text {
+    position: relative;
+    top: 180px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+}
+
+.ex-btn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 85%;
+    color: blue;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    border-radius: 60px;
+    padding: 25px, 45px;
+    height: 60px;
+    width: 270px;
+    text-align: center;
+}
+
+.sideways-text {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    display: flex;
+    transform: rotate(-90deg);
+    left: -20px;
+    position: fixed;
+}
+
+.scroll {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 1830px;
+    margin-top: -100px;
+    align-content: space-around;
+}
+
+.twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background: transparent;
+}
+
+.facebook {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background: transparent;
+}
+
+.linkedin {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background: transparent;
+}
+
+.share {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background: transparent;
+}
